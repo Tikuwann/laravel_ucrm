@@ -21,7 +21,6 @@ Route::get('/inertia-test', function () {
 });
 
 
-Route::get('/inertia/index', [InertiaTestController::class, 'index'])->name('inertia.index');
 Route::get('/blade/index', [InertiaTestController::class, 'index2'])->name('/blade/index');
 
 
